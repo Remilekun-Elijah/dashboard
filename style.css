@@ -1,0 +1,142 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+.login-container{
+    background: #0e2847;
+    height: 100vh;
+}
+.t-11{
+    font-size: 11px
+}
+.t-12{
+    font-size: 12px
+}
+.t-13{
+    font-size: 13px
+}
+.t-1{
+    font-size: 1em
+}
+.t-2{
+    font-size: 2em
+}
+.t-3{
+    font-size: 3em
+}
+.t-4{
+    font-size: 4em
+}
+.t-5{
+    font-size: 5em
+}
+.b-6{
+    font-weight: 600 !important
+}
+.b-7{
+    font-weight: 700 !important
+}
+.b-8{
+    font-weight: 800 !important
+}
+.login-wrapper{
+    margin-top: 10%
+}
+.bg-white{
+    background: #ffffff
+}
+.br-0{
+    border-radius: 0%
+}
+.has-search .form-control {
+    padding-left: 3.4rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 3.375rem;
+    height: 3.6rem;
+    line-height: 3em;
+    text-align: center;
+    pointer-events: none;
+    color: #6b6b6b;
+    font-size: 20px;
+    /* background: #f7f7f7; */
+}
+.form-control{
+    height: calc(2em + .75rem + 2px);
+    
+}
+.login-wrapper input {
+    font-size: 22px
+}
+.login-wrapper input:focus{
+    box-shadow: none
+}
+
+/* Dashboard */
+#sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    background: #0e2847;
+    width: 17%
+}
+.sidebar-wrapper{
+    padding: 20px 0
+}
+.page-content{
+    margin-left: 17%;
+    width: 83%
+}
+.fixed-header{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 17%;
+    background: #eeeeee;
+    z-index: 100;
+}
+.content-wrapper{
+    top: 10%;
+    position: absolute;
+    right: 0;
+    left: 17%;
+}
+.dash_check_in{
+    background: #ffffff
+}
+
+.menu ul li a{
+    display: block;
+    color: #cfcbcb;
+    padding: .5em .7em;
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease
+}
+.menu ul li a:hover{
+    background: #081a2f;
+    color: #ffffff;
+    text-decoration: none
+}
+.menu ul li a i{
+    width: 20px
+}
+.xr_ta tr td{
+    padding: .4rem .5em;
+    border: 0
+
+}
+.xr_ta tr td:first-child{
+    width: 200px;
+    color: #959595
+}
